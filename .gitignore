@@ -1,0 +1,5 @@
+CLBidirectionRenderDemo/build/*
+CLBidirectionRenderDemo/app/build/*
+!.gitignore
+
+

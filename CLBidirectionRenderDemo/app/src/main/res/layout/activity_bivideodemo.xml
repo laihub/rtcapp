@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.closeli.library.camera.render.CLResizeSurfaceView
+            android:id="@+id/mainview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.closeli.library.camera.render.CLResizeSurfaceView>
+
+
+        <!--<ImageView-->
+             <!--android:id="@+id/flowImage"-->
+            <!--android:layout_width="180dp"-->
+            <!--android:layout_height="320dp"-->
+        <!--/>-->
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
